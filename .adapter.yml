@@ -1,0 +1,10 @@
+name: Get counter from an API
+description: This adapter sends an unique number
+node_identifier: counter
+platforms:
+  - Docker
+data_sources:
+  - name: counter
+    url: http://87.231.93.31:3000
+parameters:
+  - token
