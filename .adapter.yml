@@ -5,6 +5,6 @@ platforms:
   - Docker
 data_sources:
   - name: counter
-    url: http://87.231.93.31:3000
+    url: https://adapter.blockchain-tracability.fr
 parameters:
   - token
