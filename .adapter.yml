@@ -1,10 +1,8 @@
-name: Get counter from an API
-description: This adapter sends an unique number
-node_identifier: counter
+name: Get Host from an API
+description: This adapter sends Hose price
+node_identifier: hose_price
 platforms:
   - Docker
 data_sources:
-  - name: counter
-    url: https://adapter.blockchain-tracability.fr
-parameters:
-  - token
+  - name: hose_price
+    url: https://stock.pixelstox.io/hose
